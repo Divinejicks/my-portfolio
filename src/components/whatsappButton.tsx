@@ -1,5 +1,3 @@
-import React from 'react';
-
 const WhatsAppButton = () => {
   const phoneNumber = "+237676669367"; // Clean number without spaces
   const message = "Hello, Can we have a chat?";
