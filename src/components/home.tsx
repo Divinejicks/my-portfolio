@@ -8,6 +8,7 @@ import cibLogo from "../assets/cibLogo.png"
 import gssLogo from "../assets/gssLogo.jpg"
 import glsLogo from "../assets/glsLogo.png"
 import bpLogo from "../assets/bpLogo.png"
+import jicksLogo from "../assets/jicksLogo.png"
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 export const HomePage = () => {
@@ -18,7 +19,7 @@ export const HomePage = () => {
             {/* Navbar */}
             <nav className="flex justify-between items-center px-6 py-4 border-b border-gray-700">
                 <div className="flex items-center space-x-4">
-                    <img src="/your-logo.png" alt="Logo" className="h-10" />
+                    <img src={jicksLogo} alt="Logo" className="h-15 w-15" />
                     <span className="text-xl font-bold">Mbuh Divine Cho</span>
                 </div>
                 <div className="hidden md:flex space-x-6">
